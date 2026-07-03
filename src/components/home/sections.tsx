@@ -98,6 +98,8 @@ export function EpisodesArchive() {
 }
 
 export function TrailerSection() {
+  const [isPlaying, setIsPlaying] = useState(false);
+
   return (
     <section className="py-24 bg-surface">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -131,14 +133,33 @@ export function TrailerSection() {
           </MotionSection>
 
           <MotionSection delay={0.2}>
-            <div className="aspect-video border border-border bg-card relative flex items-center justify-center group cursor-pointer">
-              <div className="absolute inset-0 bg-gradient-to-br from-crimson/10 to-transparent" />
-              <div className="relative z-10 flex h-20 w-20 items-center justify-center border-2 border-gold/40 bg-black/60 group-hover:border-gold transition-colors">
-                <Play className="h-8 w-8 text-gold ml-1" />
-              </div>
-              <p className="absolute bottom-4 left-4 text-xs tracking-wider uppercase text-text-secondary">
-                Watch Now · 2:34
-              </p>
+            <div className="aspect-video border border-border bg-card relative flex items-center justify-center overflow-hidden rounded-lg group">
+              {isPlaying ? (
+                <iframe
+                  src="https://www.youtube.com/embed/ONqp22xweLM?autoplay=1"
+                  title="India's Got Latent Season 2 Trailer"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full border-0 absolute inset-0 z-10"
+                />
+              ) : (
+                <div
+                  onClick={() => setIsPlaying(true)}
+                  className="absolute inset-0 cursor-pointer flex items-center justify-center"
+                >
+                  <div
+                    className="absolute inset-0 bg-cover bg-center filter opacity-60 scale-100 group-hover:scale-105 transition-transform duration-700"
+                    style={{ backgroundImage: `url(/assets/latent/episode-s2-trailer.jpg)` }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-crimson/10 via-black/40 to-black/80" />
+                  <div className="relative z-10 flex h-20 w-20 items-center justify-center border-2 border-gold/40 bg-black/60 group-hover:border-gold transition-colors">
+                    <Play className="h-8 w-8 text-gold ml-1 fill-gold" />
+                  </div>
+                  <p className="absolute bottom-4 left-4 text-xs tracking-wider uppercase text-text-secondary">
+                    Watch Now · 1:45
+                  </p>
+                </div>
+              )}
             </div>
           </MotionSection>
         </div>
