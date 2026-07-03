@@ -121,7 +121,7 @@ export function Footer() {
         <div className="gold-line my-10" />
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-text-secondary">
-          <p>&copy; 2026 India&apos;s Got Latent. All rights reserved. Crafted by <a href="https://hikity.xyz" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-white transition-colors">Hikity (hikity.xyz)</a>.</p>
+          <p className="text-xs text-text-secondary">&copy; 2026 India&apos;s Got Latent. All rights reserved. Crafted by <a href="https://hikity.xyz" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-white transition-colors">Hikity</a>.</p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-foreground transition-opacity">Privacy Policy</Link>
             <Link href="#" className="hover:text-foreground transition-opacity">Terms of Service</Link>

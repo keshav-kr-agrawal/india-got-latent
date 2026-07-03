@@ -30,9 +30,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="flex h-9 w-9 items-center justify-center border border-gold/40 bg-card">
-            <span className="font-heading text-sm font-bold text-gold">IGL</span>
-          </div>
+          <img src="/image.png" alt="India's Got Latent logo" className="h-9 w-9" />
           <div className="hidden sm:block">
             <p className="font-heading text-sm font-semibold tracking-wide text-foreground leading-none">
               India&apos;s Got Latent

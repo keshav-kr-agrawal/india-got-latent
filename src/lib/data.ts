@@ -173,6 +173,7 @@ export const products: Product[] = [
 export const episodes: Episode[] = [
   { id: "c35fpGWqXnk", title: "INDIA’S GOT LATENT S2 EP2 ft. Harsh Limbachiya, Kiku Sharda, Chandan Prabhakar", guest: "Harsh & Kiku", thumbnail: "/assets/latent/episode-s2-ep2.jpg", duration: "1h 45m", views: "12M+", date: "Jun 28, 2026", embeddable: true },
   { id: "eHTXQW58WhA", title: "INDIA’S GOT LATENT S2 EP1 ft. Alia Bhatt, Sharvari, Ashish Solanki", guest: "Alia & Sharvari", thumbnail: "/assets/latent/episode-s2-ep1.jpg", duration: "1h 58m", views: "55M+", date: "Jun 20, 2026", embeddable: true },
+  { id: "ONqp22xweLM", title: "Season 2 Trailer: The Chaos Returns", guest: "Samay & Balraj", thumbnail: "/assets/latent/episode-s2-trailer.jpg", duration: "1m 45s", views: "8.2M", date: "Jun 19, 2026", embeddable: true },
   { id: "5Y1LC7IoWxs", title: "FIRST EVER PERFORMANCE OF INDIA'S GOT LATENT", guest: "Show Opener", thumbnail: "/assets/latent/episode-opener.jpg", duration: "8m 15s", views: "4.8M", date: "Jul 10, 2024", embeddable: true },
   { id: "KhOy1YO1dRc", title: "INDIA'S GOT LATENT | Episode Roast Highlights ft. Ashish, Ranveer, Apoorva", guest: "Ashish & Ranveer", thumbnail: "/assets/latent/clip-comedy.jpg", duration: "12m 45s", views: "9.5M+", date: "Dec 5, 2024", embeddable: true },
   { id: "3RjeyQzrrvQ", title: "EPIC FLUTE & BEATBOX FUSION INDIAS GOT LATENT | PRANAV SUBRAMANIAN & ADVAIYA", guest: "Pranav & Advaiya", thumbnail: "/assets/latent/clip-beatbox.jpg", duration: "6m 12s", views: "2.1M", date: "Jul 15, 2024", embeddable: true }

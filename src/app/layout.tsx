@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   description:
     "India's most unfiltered talent stage. Live shows, auditions, premium membership, and the chaos you love.",
   keywords: ["India's Got Latent", "comedy", "live shows", "talent", "entertainment"],
+    icons: {
+      icon: "/image.png",
+    },
 };
 
 export default function RootLayout({
