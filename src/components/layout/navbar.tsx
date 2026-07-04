@@ -11,7 +11,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/live-shows", label: "Live Shows" },
   { href: "/auditions", label: "Auditions" },
-  { href: "/community", label: "Community" },
   { href: "/membership", label: "Membership" },
   { href: "/merch", label: "Merch" },
   { href: "/sponsors", label: "Sponsors" },

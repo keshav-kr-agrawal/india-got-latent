@@ -15,7 +15,6 @@ const footerLinks = {
     { href: "/live-shows", label: "Live Shows" },
     { href: "/auditions", label: "Auditions" },
     { href: "/membership", label: "Membership" },
-    { href: "/community", label: "Community" },
   ],
   company: [
     { href: "/about", label: "About" },

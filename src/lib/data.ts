@@ -213,12 +213,6 @@ export const faqs = [
   { q: "Can I get a refund on tickets?", a: "Tickets are refundable up to 7 days before the event. Within 7 days, transfers to another person are allowed via your account dashboard." },
 ];
 
-export const communityPosts = [
-  { id: "c1", type: "vote", title: "Vote: Next Guest", author: "IGL Team", avatar: "/assets/team/avatar-1.jpg", votes: 1247, content: "Who should roast the startup ecosystem next?", options: ["Anubhav Singh Bassi", "Zakir Khan", "Abhishek Upmanyu", "Munawar Faruqui"] },
-  { id: "c2", type: "challenge", title: "Suggest a Challenge", author: "Priya Sharma", avatar: "/assets/team/avatar-2.jpg", votes: 892, content: "Blindfolded stand-up — comedian performs without seeing the audience reactions." },
-  { id: "c3", type: "talent", title: "Wild Talent Idea", author: "Rohit Kumar", avatar: "/assets/team/avatar-3.jpg", votes: 634, content: "Rap battle between two CEOs — live on stage with a ₹10L charity bet." },
-  { id: "c4", type: "meme", title: "Meme of the Week", author: "Arjun Mehta", avatar: "/assets/team/avatar-4.jpg", votes: 2103, content: "That moment when the judge said 'this is not a comedy show, this is a therapy session'" },
-];
 
 export const talentCategories = [
   "Stand-up Comedy",
